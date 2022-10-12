@@ -58,6 +58,10 @@ body {
     background: #2F65F8;
     color: white;
     cursor: pointer;
+    transition: all ease-out 0.3s;
+}
+.buttonStart:hover {
+    background: #6C9BFF;
 }
 #error {
     position: absolute;
@@ -191,6 +195,11 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+.socialNetwork {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
 @media (max-width: 768px) {
 
@@ -238,16 +247,12 @@ body {
     .buttonStart {
         display: block;
         margin: 50px auto 0 auto;
-        transition: all ease-out 0.3s;
     }
     #error {
         position: absolute;
         top: 72%;
         left: 20%;
         padding: 0;
-    }
-    .buttonStart:hover {
-        background: #6C9BFF;
     }
     .bottomContainer {
         display: flex;
@@ -293,10 +298,5 @@ body {
     }
     .contact {
         align-items: center;
-    }
-    .socialNetwork {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
     }
 }
