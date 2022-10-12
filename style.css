@@ -191,11 +191,6 @@ body {
     flex-direction: column;
     gap: 10px;
 }
-.socialNetwork {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
 
 @media (max-width: 768px) {
 
@@ -298,5 +293,10 @@ body {
     }
     .contact {
         align-items: center;
+    }
+    .socialNetwork {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 }
